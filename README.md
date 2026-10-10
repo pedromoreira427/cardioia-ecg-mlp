@@ -34,19 +34,22 @@ Rede neural do tipo **Perceptron Multicamadas (MLP)** em Keras que classifica ba
 
 ## 📈 Resultados
 
-> PREENCHER com os números do seu run
-
 | Métrica | Valor |
 |---|---|
-| Acurácia (teste) | ___ |
-| Recall anormais | ___ |
-| Épocas até parar | ___ |
+| Acurácia (teste) | 97,5% |
+| Recall anormais | 98,8% (1.557 de 1.576) |
+| Épocas até parar | 15 (melhores pesos da época 7) |
+| Erros | 35 normais vistos como anormais, 19 anormais vistos como normais |
 
 Exemplos de imagens geradas (pasta `exemplos/`):
 
 ![exemplos](exemplos/grade_exemplos.png)
 
 ![matriz de confusão](exemplos/matriz_confusao.png)
+
+![curvas de treino](exemplos/curvas_treino.png)
+
+A validação parou de melhorar na época 7 enquanto o treino seguia caindo (início de overfitting). O EarlyStopping cortou o treino e devolveu os melhores pesos.
 
 ## 🔧 Como executar
 
