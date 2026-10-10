@@ -50,7 +50,7 @@ Exemplos de imagens geradas (pasta `exemplos/`):
 
 ## 🔧 Como executar
 
-**Google Colab (recomendado):** abra o `ecg_mlp.ipynb` no Colab e use *Ambiente de execução > Executar tudo*. O notebook baixa o dataset sozinho com `kagglehub`.
+**Google Colab (recomendado):** [abrir no Colab](https://colab.research.google.com/github/pedromoreira427/cardioia-ecg-mlp/blob/main/ecg_mlp.ipynb) e use *Ambiente de execução > Executar tudo*. O notebook baixa o dataset sozinho com `kagglehub`.
 
 Se o download automático falhar, baixe o zip no Kaggle e coloque `ptbdb_normal.csv` e `ptbdb_abnormal.csv` numa pasta `data/` ao lado do notebook.
 
